@@ -35,7 +35,7 @@ class ShoppingCart {
 
     displayItems() {
         for (let i of this.items) {
-            console.log(${i.name} - ${i.quantity} x ${i.price} = ${i.getTotalPrice()});
+            console.log(`${i.name} - ${i.quantity} x ${i.price} = ${i.getTotalPrice()}`);
         }
     }
 }
